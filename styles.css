@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+header {
+    width: 1450px;
+    height: 155px;
+    flex-shrink: 0;
+    background-color: #6BA432;
+}
+
+nav {
+    display: inline-flex;
+    padding-left: 0px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 303px;
+}
+
+.image__1 {
+    width: 118px;
+    height: 63px;
+    flex-shrink: 0;
+    margin: auto;
+}
